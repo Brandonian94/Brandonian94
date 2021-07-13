@@ -6,7 +6,7 @@ const countdownEl = document.getElementById('countdown');
 
 const ticker = setInterval(updateCountdown, 1000);
 
-import { clearScreenText as clearScreenText } from './app.js';
+import { clearScreenText } from './app.js';
 
 // function clearScreenText() {
 //     const allTextDuringGame = document.querySelectorAll("p");
